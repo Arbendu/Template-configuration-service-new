@@ -1,3 +1,5 @@
+// Response from the API
+
 [
     {
         "id": 7,
@@ -133,3 +135,24 @@
         }
     }
 ]
+
+
+
+
+
+
+
+// Sample data from DB
+
+1135	test-pratik	1	test	ACTIVE		
+{"templateMeta":{"templateId":"","version":"1","description":null,"pageSize":"A4","pageOrientation":"portrait","headerLayout":null,"status":null},"reportMeta":{"reportName":"test","reportId":"test-pratik","extras":[]},
+"reportData":{"columns":[{"id":"C__1","name":"Column 1","format":{}},{"id":"C__2","name":"Column 2","format":{}}],"rows":[{"rowType":"DATA","id":"R__1","cells":[{"type":"DB_SUM","value":"","source":{"table":"GL_BALANCE","column":"INR_BALANCE","filters":{"CGL":[{"op":"=","value":"202022022020200",
+"dataType":"STRING"},{"op":"IN","value":["1111111111","2222222222"],"dataType":"STRING"}]}}},{"type":"FORMULA","value":"","expression":"BR","variables":{"BR":{"type":"DB_AVG","table":"GL_BALANCE","column":"BALANCE","filters":{"CURRENCY":[{"op":"IN","value":["INR","CPY"],"dataType":"STRING"}]}}}}]},
+{"rowType":"DATA","id":"R__2","cells":[{"type":"TEXT","value":"Hello"},{"type":"FORMULA","value":"","expression":"cell_R__1_C__1 + cell_R__2_C__1"}]}]}}	v1018404	15-04-26 8:42:02.910718000 AM	v1018404	15-04-26 8:42:02.910718000 AM	
+
+
+
+
+
+// 
+
